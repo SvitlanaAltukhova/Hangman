@@ -7,8 +7,6 @@ game = False
 lives = 6
 chosen_word = random.choice(word_list.word_list)
 
-print(f"Test:{chosen_word}")
-
 display = []
 
 for i in chosen_word:
